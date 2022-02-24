@@ -1,11 +1,15 @@
 local au = require("au")
 
-vim.api.nvim_set_option('number', true)
-vim.api.nvim_set_option('relativenumber', true)
-vim.api.nvim_set_option('tabstop', 4)
-vim.api.nvim_set_option('shiftwidth', 4)
-vim.api.nvim_set_option('softtabstop', 4)
-vim.api.nvim_set_option('expandtab', true)
+vim.cmd [[
+set number
+set relativenumber
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set expandtab
+set smartindent
+set autoindent
+]]
 
 vim.opt.list = true
 vim.opt.listchars:append("space:⋅")
@@ -19,9 +23,10 @@ require("indent_blankline").setup {
 au.BufEnter = {
 	'*.yaml,*.yml',
 	function ()
-		vim.api.nvim_set_option('tabstop', 4)
-		vim.api.nvim_set_option('shiftwidth', 4)
-		vim.api.nvim_set_option('softtabstop', 4)
-		vim.api.nvim_set_option('expandtab', true)
+        	vim.cmd [[
+		set tabstop=2
+		set shiftwidth=2
+		set softtabstop=2
+		]]
 	end,
 }
