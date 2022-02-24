@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/home/red/.config/nvim/lua'
+let g:netrw_dirhist_8='/home/red/.config/nvim'
+let g:netrw_dirhist_7='/home/red/.config/nvim/lua'
+let g:netrw_dirhist_6='/home/red/.config/nvim'
+let g:netrw_dirhist_5='/home/red/.nvim'
+let g:netrw_dirhist_4='/home/red/Documents/Coding/kube-projects/OtusFour'
+let g:netrw_dirhist_3='/home/red/Documents/Coding/IdeaProjects/simple-echo-app/kube/jaeger'
+let g:netrw_dirhist_2='/home/red/Documents/Coding/IdeaProjects/simple-echo-app/kube'
+let g:netrw_dirhist_1='/home/red/Documents/Coding/IdeaProjects/simple-echo-app'
+let g:netrw_dirhist_0='/home/red'
