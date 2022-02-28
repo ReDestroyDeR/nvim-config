@@ -7,4 +7,8 @@ Contents:
 - Purify Theme
 - Nice indents
 - Yaml indentation fix
+- Coc
+    1. Yaml For Kubernetes support
+- Startify
+- Wakatime
 
